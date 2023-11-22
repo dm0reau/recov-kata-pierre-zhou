@@ -1,6 +1,7 @@
 class Recov < Thor
-  desc "dummy", "Dummy command"
-  def dummy
-    puts "I'm dummy"
+  desc "eat", "We eat potatoes"
+  method_option :potatoes, desc: "The number of potatoes we eat", aliases: "-p", type: :numeric, required: true
+  def eat
+    puts "I'm eating #{options[:potatoes]} potatoes"
   end
 end
