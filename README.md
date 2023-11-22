@@ -7,7 +7,8 @@ En effet, avec notre service n'importe quel geek sera capable de demander un cov
 
 Nous souhaitons qu'un passager puisse demander un covoiturage en lançant une ligne de commande. Le passager doit donner ses coordonnées géographiques.
 
-Comme on souhaite que la personne demande un covoiturage en France, la latitude doit se situer entre 42 et 50, puis la longitude entre -4 et 8. Ces coordonnées ne définissent pas des limites précises de la France mais sont jugées suffisantes pour une V1.
+Pour l'instant, on souhaite que le passager ne puisse covoiturer qu'en France. Ainsi, la latitude doit se situer entre 42 et 50, puis la longitude entre -4 et 8. 
+Ces coordonnées ne définissent pas des limites précises de la France mais sont jugées suffisantes pour une V1.
 
 ## 2nd feature
 
