@@ -1,6 +1,6 @@
 require_relative 'lib/eat'
 
-class Recov < Thor
+class Example < Thor
   desc "eat", "We eat potatoes"
   method_option :potatoes, desc: "The number of potatoes we eat", aliases: "-p", type: :numeric, required: true
   def eat
